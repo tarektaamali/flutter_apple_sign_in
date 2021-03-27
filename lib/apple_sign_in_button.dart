@@ -87,8 +87,8 @@ class _AppleSignInButtonState extends State<AppleSignInButton> {
             ),
             Text(
               widget.type == ButtonType.continueButton
-                  ? 'Continue with Apple'
-                  : 'Sign in with Apple',
+                  ? 'Se conneter avec Apple'
+                  : 'Se conneter avec Apple',
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w500,
